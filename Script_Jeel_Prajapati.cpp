@@ -21,8 +21,7 @@ int main()
 	char Biostack[20] = "Genomics";
 	char TwitterUsername[20] = "@Jeelp193";
 
-	char str1[] = "@Jeeel193";
-	char str2[] = "@Jeelp193";
-	cout << Name << "," << Email << "," << SlackUsername << "," << Biostack << "," << TwitterUsername << "," << hammingdistance(str1, str2);
+
+	cout << Name << "," << Email << "," << SlackUsername << "," << Biostack << "," << TwitterUsername << "," << hammingdistance(SlackUsername, TwitterUsername);
 }
 
